@@ -1,0 +1,38 @@
+// if statement.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	char name[20];
+	char a[20];
+	
+	cout << "Whats your name?" << endl;
+	cin >> name ;
+
+	cout << "Hello " << name << " let's Play a game" << endl;
+
+	int num = 18;
+	cout << "\nGuess the default number :";
+	cin >> num;
+
+	if (num = 18)
+	{
+		cout << "\nWIN!! WIN! " << endl << "YOU GOT IT RIGHT\n" << endl;
+	}
+	else if (num > 18)
+	{
+		cout << "\n:( ohh sorry, wrong guess. TRY A SMALLER NUMBER\n";
+	}
+	else
+	{
+		cout << "\n:( ohh sorry, wrong guess. TRY A HIGHER NUMBER\n";
+	}
+    return 0;
+
+}
+
